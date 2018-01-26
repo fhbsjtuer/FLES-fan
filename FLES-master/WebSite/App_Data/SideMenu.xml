@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Demos Name="ASPxperience" ColumnCount="3">
+  <DemosGroup Text="产品品质诊断">
+    <Demo Text="样本上传与样本管理" NavigateUrl="test_main.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="缺陷自动分类">
+    <Demo Text="选择计数型数据" />
+    <Demo Text="玻璃计数型缺陷计分评价分类" />
+  </DemosGroup>
+  <DemosGroup Text="异常机台定位">
+    <Demo Text="数据上传" />
+    <Demo Text="选择ProcessData" />
+    <Demo Text="问题识别框架" />
+    <Demo Text="影响显著特征和可疑机台概率" />
+    <Demo Text="选择机台报警" />
+    <Demo Text="机台报警" />
+    <Demo Text="信息融合" />
+  </DemosGroup>
+  <DemosGroup Text="异常问题分析">
+    <Demo Text="加工参数变化显示" />
+    <Demo Text="问题匹配" />
+    <Demo Text="原因匹配" />
+  </DemosGroup>
+  <DemosGroup Text="解决方案与异常处理">
+    <Demo Text="解决方案匹配" />
+    <Demo Text="实际处理上传" />
+    <Demo Text="解决情况汇总" />
+  </DemosGroup>
+  <DemosGroup Text="其他">
+    <Demo Text="缺陷样本管理" />
+    <Demo Text="历史案例管理" />
+    <Demo Text="警报信息管理" />
+    <Demo Text="识别框架管理" />
+  </DemosGroup>
+</Demos>
