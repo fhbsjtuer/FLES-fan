@@ -16,7 +16,7 @@ namespace DAL
     {
         public List<machine_importance> GetAlltest()
         {
-            string strSql = "select * from machine_importance where MasterID=(select MAX(MasterID) from feature_importance ) ";
+            string strSql = "select * from machine_importance where MasterID=(select MAX(MasterID) from feature_importance ) and Source = 'processdata' ";
             DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
             List<machine_importance> list = new List<machine_importance>();
             foreach (DataRow dr in ds.Tables[0].Rows)
