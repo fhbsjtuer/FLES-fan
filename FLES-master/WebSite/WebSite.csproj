@@ -94,9 +94,11 @@
     <Content Include="Global.asax" />
     <Content Include="Position_ChoseAlarmData.aspx" />
     <Content Include="Position_ChoseData.aspx" />
+    <Content Include="Position_Clustergraphic.aspx" />
     <Content Include="Position_DataUpload.aspx" />
     <Content Include="Position_Probability.aspx" />
     <Content Include="Position_ProblemRecognizeFramework.aspx" />
+    <Content Include="Problem_Analysis.aspx" />
     <Content Include="ProductionDiagnos_FileUpLoad.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +195,13 @@
     <Compile Include="Position_ChoseData.aspx.designer.cs">
       <DependentUpon>Position_ChoseData.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Position_Clustergraphic.aspx.cs">
+      <DependentUpon>Position_Clustergraphic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Position_Clustergraphic.aspx.designer.cs">
+      <DependentUpon>Position_Clustergraphic.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Position_DataUpload.aspx.cs">
       <DependentUpon>Position_DataUpload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -213,6 +222,13 @@
     </Compile>
     <Compile Include="Position_ProblemRecognizeFramework.aspx.designer.cs">
       <DependentUpon>Position_ProblemRecognizeFramework.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Problem_Analysis.aspx.cs">
+      <DependentUpon>Problem_Analysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Problem_Analysis.aspx.designer.cs">
+      <DependentUpon>Problem_Analysis.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductionDiagnos_FileUpLoad.aspx.cs">
       <DependentUpon>ProductionDiagnos_FileUpLoad.aspx</DependentUpon>
