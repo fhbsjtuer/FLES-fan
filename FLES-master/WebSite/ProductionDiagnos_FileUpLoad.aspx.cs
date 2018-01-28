@@ -17,7 +17,7 @@ namespace WebSite
         protected void Button1_Click1(object sender, EventArgs e)
         {
             string strName = FileUpload1.PostedFile.FileName;
-            string serverPath = Server.MapPath("DataUpLoad");
+            string serverPath = Server.MapPath(@"\data\count_sample");
             if (!System.IO.Directory.Exists(serverPath))//创建文件夹
             {
                 System.IO.Directory.CreateDirectory(serverPath);

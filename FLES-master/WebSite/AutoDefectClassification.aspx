@@ -3,6 +3,11 @@
     <table style="width: 100%;">
         <tr>
             <td style="width: 402px">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 402px">&nbsp;</td>
             <td colspan="3">
                 <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="选择计数型数据"></asp:Label>
             </td>
