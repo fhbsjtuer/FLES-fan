@@ -53,6 +53,7 @@
     <Compile Include="data_frame.cs" />
     <Compile Include="feature_importance.cs" />
     <Compile Include="machine_importance.cs" />
+    <Compile Include="ProcessData_Sample_Info.cs" />
     <Compile Include="ProcessData_Management.cs" />
     <Compile Include="count_sample.cs" />
     <Compile Include="Evaluate_Classfication.cs" />

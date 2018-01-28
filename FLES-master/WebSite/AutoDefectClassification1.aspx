@@ -21,8 +21,8 @@
         <tr>
             <td style="width: 401px">&nbsp;</td>
             <td colspan="3">
-                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Id" Theme="Aqua" Width="1000px">
-                    <SettingsPager AlwaysShowPager="True">
+                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Id" Theme="Aqua" Width="1000px" OnHtmlDataCellPrepared="ASPxGridView1_HtmlDataCellPrepared">
+                    <SettingsPager AlwaysShowPager="True" PageSize="20">
                     </SettingsPager>
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="Id" VisibleIndex="0">

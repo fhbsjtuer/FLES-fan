@@ -297,3 +297,4 @@ D:\fles\FLES-fan\FLES-master\WebSite\bin\ru\DevExpress.Pdf.v16.2.Core.resources.
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.pdb
+D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll.licenses
