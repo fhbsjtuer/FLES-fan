@@ -18,7 +18,7 @@ namespace WebSite
         protected void Button1_Click(object sender, EventArgs e)
         {
             string strName = FileUpload1.PostedFile.FileName;
-            string serverPath = Server.MapPath("ProcessData上传");
+            string serverPath = Server.MapPath(@"\data\processdata_raw");
             if (!System.IO.Directory.Exists(serverPath))//创建文件夹
             {
                 System.IO.Directory.CreateDirectory(serverPath);
@@ -54,7 +54,7 @@ namespace WebSite
         protected void Button2_Click(object sender, EventArgs e)
         {
             string strName = FileUpload2.PostedFile.FileName;
-            string serverPath = Server.MapPath("设备报警数据");
+            string serverPath = Server.MapPath(@"\data\alert_raw");
             if (!System.IO.Directory.Exists(serverPath))//创建文件夹
             {
                 System.IO.Directory.CreateDirectory(serverPath);

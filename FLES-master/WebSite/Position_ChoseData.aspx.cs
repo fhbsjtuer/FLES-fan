@@ -13,5 +13,24 @@ namespace WebSite
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                    System.Threading.Thread.Sleep(50);
+                    ASPxProgressBar1.Position += 1;
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Position_DataUpload.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Position_DataUpload.aspx");
+        }
     }
 }

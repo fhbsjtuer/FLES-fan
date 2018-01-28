@@ -118,6 +118,18 @@
         <tr>
             <td style="width: 400px">&nbsp;</td>
             <td colspan="3">
+                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Large" Text="4.设备报警管理"></asp:Label>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 400px">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 400px">&nbsp;</td>
+            <td colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" KeyFieldName="ID" Theme="Aqua" Width="1000px">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">

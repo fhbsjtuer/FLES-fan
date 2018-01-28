@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="alarm_management_BLL.cs" />
+    <Compile Include="data_frame_BLL.cs" />
+    <Compile Include="feature_importance_BLL.cs" />
+    <Compile Include="machine_importance_BLL.cs" />
     <Compile Include="ProcessData_Management_BLL.cs" />
     <Compile Include="count_sample_BLL.cs" />
     <Compile Include="Evaluate_Classfication_BLL.cs" />

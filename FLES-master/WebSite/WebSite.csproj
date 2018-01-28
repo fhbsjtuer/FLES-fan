@@ -92,8 +92,11 @@
     <Content Include="Content\Images\RedWineHeader.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Position_ChoseAlarmData.aspx" />
     <Content Include="Position_ChoseData.aspx" />
     <Content Include="Position_DataUpload.aspx" />
+    <Content Include="Position_Probability.aspx" />
+    <Content Include="Position_ProblemRecognizeFramework.aspx" />
     <Content Include="ProductionDiagnos_FileUpLoad.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +179,13 @@
     <Compile Include="Light.master.designer.cs">
       <DependentUpon>Light.master</DependentUpon>
     </Compile>
+    <Compile Include="Position_ChoseAlarmData.aspx.cs">
+      <DependentUpon>Position_ChoseAlarmData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Position_ChoseAlarmData.aspx.designer.cs">
+      <DependentUpon>Position_ChoseAlarmData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Position_ChoseData.aspx.cs">
       <DependentUpon>Position_ChoseData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -189,6 +199,20 @@
     </Compile>
     <Compile Include="Position_DataUpload.aspx.designer.cs">
       <DependentUpon>Position_DataUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Position_Probability.aspx.cs">
+      <DependentUpon>Position_Probability.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Position_Probability.aspx.designer.cs">
+      <DependentUpon>Position_Probability.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Position_ProblemRecognizeFramework.aspx.cs">
+      <DependentUpon>Position_ProblemRecognizeFramework.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Position_ProblemRecognizeFramework.aspx.designer.cs">
+      <DependentUpon>Position_ProblemRecognizeFramework.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductionDiagnos_FileUpLoad.aspx.cs">
       <DependentUpon>ProductionDiagnos_FileUpLoad.aspx</DependentUpon>
