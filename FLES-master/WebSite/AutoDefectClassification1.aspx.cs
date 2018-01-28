@@ -23,5 +23,13 @@ namespace WebSite
         {
             Response.Redirect("Position_DataUpload.aspx");
         }
+
+        protected void ASPxGridView1_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e)
+        {
+            if (e.DataColumn.FieldName == "Id")
+            {
+                e.Cell.Text = ((e.VisibleIndex) + 1).ToString();
+            }
+        }
     }
 }
