@@ -6,3 +6,10 @@ FLES-master/Utility/bin/Debug/Utility.dll
 FLES-master/Utility/obj/Debug/Utility.csprojResolveAssemblyReference.cache
 *.dll
 *.cache
+*.dll
+*.cache
+FLES-master/.vs/WebSite/v15/.suo
+*.dll
+*.Cache
+*.dll
+*.cache

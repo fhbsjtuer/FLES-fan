@@ -14,7 +14,11 @@
     <Demo Text="影响显著特征和可疑机台概率" NavigateUrl="Position_Probability.aspx"/>
     <Demo Text="选择机台报警" NavigateUrl="Position_ChoseAlarmData.aspx"/>
     <Demo Text="机台报警" NavigateUrl="Position_Clustergraphic.aspx"/>
+<<<<<<< HEAD
     <Demo Text="信息融合" />
+=======
+    <Demo Text="信息融合" NavigateUrl=""/>
+>>>>>>> d4b278bab11e311dd07f16abed5c2e5eead80956
   </DemosGroup>
   <DemosGroup Text="异常问题分析">
     <Demo Text="加工参数变化显示" NavigateUrl="Problem_Analysis.aspx"/>

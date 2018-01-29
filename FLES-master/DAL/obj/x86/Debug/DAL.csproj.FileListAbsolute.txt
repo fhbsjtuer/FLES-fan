@@ -40,7 +40,6 @@ C:\Users\46481\Desktop\FLES-master\FLES-master\DAL\obj\x86\Debug\DAL.Properties.
 C:\Users\46481\Desktop\FLES-master\FLES-master\DAL\obj\x86\Debug\DAL.csproj.GenerateResource.Cache
 C:\Users\46481\Desktop\FLES-master\FLES-master\DAL\obj\x86\Debug\DAL.dll
 C:\Users\46481\Desktop\FLES-master\FLES-master\DAL\obj\x86\Debug\DAL.pdb
-<<<<<<< HEAD
 C:\Users\46481\Desktop\FLES-master\FLES-master\DAL\bin\Debug\Utility.pdb
 =======
 D:\fles\FLES-fan\FLES-master\DAL\bin\Debug\DAL.dll
@@ -67,4 +66,3 @@ D:\fles\FLES-fan\FLES-master\DAL\obj\x86\Debug\DAL.Properties.Resources.resource
 D:\fles\FLES-fan\FLES-master\DAL\obj\x86\Debug\DAL.csproj.GenerateResource.Cache
 D:\fles\FLES-fan\FLES-master\DAL\obj\x86\Debug\DAL.dll
 D:\fles\FLES-fan\FLES-master\DAL\obj\x86\Debug\DAL.pdb
->>>>>>> bb03db2addfd7854a365ea06b81463417c449ea4
