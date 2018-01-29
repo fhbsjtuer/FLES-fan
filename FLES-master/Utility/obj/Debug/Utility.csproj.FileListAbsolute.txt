@@ -21,13 +21,10 @@ D:\fles\FLES-fan\FLES-master\Utility\obj\Debug\Utility.dll
 D:\fles\FLES-fan\FLES-master\Utility\obj\Debug\Utility.pdb
 D:\fles\FLES-fan\FLES-master\Utility\bin\Debug\MySql.Data.dll
 D:\fles\FLES-fan\FLES-master\Utility\bin\Debug\MySql.Data.xml
-<<<<<<< HEAD
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\bin\Debug\Utility.pdb
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\bin\Debug\MySql.Data.dll
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\bin\Debug\MySql.Data.xml
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\obj\Debug\Utility.dll
 C:\Users\46481\Desktop\FLES-master\FLES-master\Utility\obj\Debug\Utility.pdb
-=======
 D:\fles\FLES-fan\FLES-master\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
->>>>>>> d4b278bab11e311dd07f16abed5c2e5eead80956

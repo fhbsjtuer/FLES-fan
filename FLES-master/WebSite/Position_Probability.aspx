@@ -3,24 +3,24 @@
     <table class="dxeLyGroup_iOS">
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td style="height: 20px">&nbsp;</td>
+            <td style="height: 20px" colspan="3">&nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.影响显著加工参数"></asp:Label>
             </td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td style="height: 20px">&nbsp;</td>
+            <td style="height: 20px" colspan="3">&nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 161px">&nbsp;</td>
-            <td>
+            <td colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" Theme="Aqua" Width="1500px">
                     <SettingsPager AlwaysShowPager="True">
                     </SettingsPager>
@@ -915,24 +915,24 @@
         </tr>
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td style="height: 20px">&nbsp;</td>
+            <td style="height: 20px" colspan="3">&nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="2.processdata对应的可疑机台概率"></asp:Label>
             </td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px"></td>
-            <td style="height: 20px"></td>
+            <td style="height: 20px" colspan="3"></td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
             <td style="width: 161px; height: 250px"></td>
-            <td style="height: 250px">
+            <td style="height: 250px" colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" Theme="Aqua" Width="1500px">
                     <SettingsPager AlwaysShowPager="True">
                     </SettingsPager>
@@ -976,18 +976,24 @@
         </tr>
         <tr>
             <td style="width: 161px; height: 21px"></td>
-            <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px"></td>
+            <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px" colspan="3"></td>
             <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px"></td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px"></td>
+            <td class="dxcpCurrentColor_iOS" style="height: 20px">
+                <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
+            </td>
+            <td class="dxcpCurrentColor_iOS" style="height: 20px">
+                <asp:Button ID="Button2" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button2_Click" Text="下一步" Width="90px" />
+            </td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px">
                 &nbsp;</td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
         </tr>
         <tr>
             <td style="width: 161px; height: 20px"></td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
+            <td class="dxcpCurrentColor_iOS" style="height: 20px" colspan="3"></td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
         </tr>
         </table>

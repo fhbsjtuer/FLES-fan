@@ -3,24 +3,24 @@
     <table style="width: 100%;">
         <tr>
             <td style="width: 51px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px; height: 28px"></td>
-            <td style="height: 28px">
+            <td style="height: 28px" colspan="3">
                 <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="1.问题识别框架"></asp:Label>
             </td>
             <td style="height: 28px"></td>
         </tr>
         <tr>
             <td style="width: 51px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="height: 20px; width: 51px;"></td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Id" Theme="Aqua" Width="1500px">
                     <SettingsPager AlwaysShowPager="True">
                     </SettingsPager>
@@ -922,48 +922,48 @@
         </tr>
         <tr>
             <td style="width: 51px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px">&nbsp;</td>
-            <td>
+            <td colspan="3">
                 <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" Text="2.分析结果"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px; height: 36px;"></td>
-            <td class="dxeBinaryImageButtonPanel_Aqua">
+            <td class="dxeBinaryImageButtonPanel_Aqua" colspan="3">
                 <div class='tableauPlaceholder' id='viz1517115973426' style='position: relative; left: 188px; top: 0px; width: 1314px;'><noscript><a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProblemRecognize&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProblemRecognize&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProblemRecognize&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1517115973426');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                 </td>
             <td class="dxeBinaryImageButtonPanel_Aqua"></td>
         </tr>
         <tr>
             <td style="width: 51px; height: 20px;"></td>
-            <td style="height: 20px"></td>
+            <td style="height: 20px" colspan="3"></td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
             <td style="width: 51px; height: 20px;">&nbsp;</td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Large" Text="3.选择降维后的样本"></asp:Label>
             </td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px; height: 20px;">&nbsp;</td>
-            <td style="height: 20px">&nbsp;</td>
+            <td style="height: 20px" colspan="3">&nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 51px; height: 20px;">&nbsp;</td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" Theme="Aqua" Width="1500px">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
@@ -985,7 +985,7 @@
         </tr>
         <tr>
             <td style="width: 51px; height: 20px;">&nbsp;</td>
-            <td style="height: 20px">
+            <td style="height: 20px" colspan="3">
                 <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" DeleteMethod="Delete" InsertMethod="Add" OldValuesParameterFormatString="original_{0}" SelectMethod="GetAlltest" TypeName="BLL.ProcessData_Sample_Info_BLL" UpdateMethod="Update">
                     <DeleteParameters>
                         <asp:Parameter Name="Original_ID" Type="Int32" />
@@ -1007,6 +1007,24 @@
                     </UpdateParameters>
                 </asp:ObjectDataSource>
             </td>
+            <td style="height: 20px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 51px; height: 20px;">&nbsp;</td>
+            <td style="height: 20px" colspan="3">
+                &nbsp;</td>
+            <td style="height: 20px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 51px; height: 20px;">&nbsp;</td>
+            <td style="height: 20px">
+                <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
+            </td>
+            <td style="height: 20px">
+                <asp:Button ID="Button2" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button2_Click" Text="下一步" Width="90px" />
+            </td>
+            <td style="height: 20px">
+                &nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
     </table>

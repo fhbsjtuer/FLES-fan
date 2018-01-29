@@ -238,7 +238,6 @@ D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.csprojResolveAssemblyRefe
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.pdb
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll.licenses
-<<<<<<< HEAD
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\bin\WebSite.dll.config
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\bin\WebSite.dll
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\bin\WebSite.pdb
@@ -298,6 +297,4 @@ C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\bin\ru\DevExpress.Pdf.v16
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\obj\Debug\WebSite.dll
 C:\Users\46481\Desktop\FLES-master\FLES-master\WebSite\obj\Debug\WebSite.pdb
-=======
 D:\fles\FLES-fan\FLES-master\WebSite\bin\BLL.pdb
->>>>>>> d4b278bab11e311dd07f16abed5c2e5eead80956

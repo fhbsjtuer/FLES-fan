@@ -25,12 +25,12 @@ namespace WebSite
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Position_DataUpload.aspx");
+            Response.Redirect("Position_Probability.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Position_DataUpload.aspx");
+            Response.Redirect("Position_Clustergraphic.aspx");
         }
     }
 }
