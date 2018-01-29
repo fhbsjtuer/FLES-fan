@@ -9,3 +9,5 @@ FLES-master/Utility/obj/Debug/Utility.csprojResolveAssemblyReference.cache
 *.dll
 *.cache
 FLES-master/.vs/WebSite/v15/.suo
+*.dll
+*.Cache

@@ -259,7 +259,6 @@ D:\fles\FLES-fan\FLES-master\WebSite\bin\DevExpress.Pdf.v16.2.Core.dll
 D:\fles\FLES-fan\FLES-master\WebSite\bin\ICSharpCode.SharpZipLib.dll
 D:\fles\FLES-fan\FLES-master\WebSite\bin\NPOI.OpenXmlFormats.dll
 D:\fles\FLES-fan\FLES-master\WebSite\bin\NPOI.OpenXml4Net.dll
-D:\fles\FLES-fan\FLES-master\WebSite\bin\BLL.pdb
 D:\fles\FLES-fan\FLES-master\WebSite\bin\DAL.pdb
 D:\fles\FLES-fan\FLES-master\WebSite\bin\Model.pdb
 D:\fles\FLES-fan\FLES-master\WebSite\bin\Utility.pdb
@@ -298,3 +297,4 @@ D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.csprojResolveAssemblyRefe
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.pdb
 D:\fles\FLES-fan\FLES-master\WebSite\obj\Debug\WebSite.dll.licenses
+D:\fles\FLES-fan\FLES-master\WebSite\bin\BLL.pdb
