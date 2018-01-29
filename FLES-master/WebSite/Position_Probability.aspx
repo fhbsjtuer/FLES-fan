@@ -9,7 +9,7 @@
         <tr>
             <td style="width: 161px; height: 20px">&nbsp;</td>
             <td style="height: 20px">
-                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.影响加工参数及对应可疑机台的概率"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.影响显著加工参数"></asp:Label>
             </td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
@@ -914,6 +914,18 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td style="width: 161px; height: 20px">&nbsp;</td>
+            <td style="height: 20px">&nbsp;</td>
+            <td style="height: 20px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 161px; height: 20px">&nbsp;</td>
+            <td style="height: 20px">
+                <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="2.processdata对应的可疑机台概率"></asp:Label>
+            </td>
+            <td style="height: 20px">&nbsp;</td>
+        </tr>
+        <tr>
             <td style="width: 161px; height: 20px"></td>
             <td style="height: 20px"></td>
             <td style="height: 20px"></td>
@@ -970,8 +982,7 @@
         <tr>
             <td style="width: 161px; height: 20px"></td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px">
-                <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="2.数据分析"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
         </tr>
         <tr>
@@ -979,12 +990,5 @@
             <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px"></td>
         </tr>
-        <tr>
-            <td style="width: 161px; height: 20px">&nbsp;</td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px">
-                <div class='tableauPlaceholder' id='viz1517129070004' style='position: relative; left: 188px; top: 0px; width: 1314px;'><noscript><a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Probability_0&#47;1_2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Probability_0&#47;1_2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Probability_0&#47;1_2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1517129070004');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-                &nbsp;</td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px">&nbsp;</td>
-        </tr>
-    </table>
+        </table>
 </asp:Content>
