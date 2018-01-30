@@ -2,24 +2,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table style="width: 100%;">
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
-                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="选择计数型数据"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.选择计数型数据"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Comment" Theme="Aqua" Width="1000px">
                     <Columns>
@@ -61,12 +61,12 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 402px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td>
                 <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
             </td>

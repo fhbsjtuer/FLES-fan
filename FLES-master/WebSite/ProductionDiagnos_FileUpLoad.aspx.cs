@@ -12,6 +12,11 @@ namespace WebSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ObjectDataSource1.DataBind();
+            }
+                
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
@@ -25,9 +30,9 @@ namespace WebSite
             if (FileUpload1.HasFile) //选择文件并上传
             {
                 int filesize = FileUpload1.PostedFile.ContentLength / 1024 / 1024;
-                if (filesize > 8)
+                if (filesize > 2048)
                 {
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "", "警告:只允许上传小于8M的文件");
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "", "警告:只允许上传小于2G的文件");
                     return;
                 }
                 else
@@ -42,6 +47,7 @@ namespace WebSite
                     mycom.ExecuteNonQuery();
                     con.Close();
                 }
+                ObjectDataSource1.DataBind();
             }
             else
             {

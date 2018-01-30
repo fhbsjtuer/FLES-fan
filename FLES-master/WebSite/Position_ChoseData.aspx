@@ -2,24 +2,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table style="width:100%;">
         <tr>
-            <td style="width: 400px; height: 20px;"></td>
+            <td style="width: 50px; height: 20px;"></td>
             <td colspan="2" style="height: 20px"></td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
-            <td style="height: 20px; width: 400px;"></td>
+            <td style="height: 20px; width: 50px;"></td>
             <td style="height: 20px" colspan="2">
                 <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.选择ProcessData"></asp:Label>
             </td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
-            <td style="height: 20px; width: 400px;">&nbsp;</td>
+            <td style="height: 20px; width: 50px;">&nbsp;</td>
             <td style="height: 20px" colspan="2">&nbsp;</td>
             <td style="height: 20px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 400px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="2">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" Theme="Aqua" Width="1000px">
                     <Columns>
@@ -56,26 +56,26 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 400px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="2">
                 &nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 400px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="2">
                 <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="2.进度显示"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 400px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="2">
                 &nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 400px; height: 31px"></td>
+            <td style="width: 50px; height: 31px"></td>
             <td style="height: 31px; width: 631px;">
                 <dx:ASPxProgressBar ID="ASPxProgressBar1" runat="server" Height="80px" Theme="Glass" Width="600px">
                 </dx:ASPxProgressBar>
@@ -86,13 +86,13 @@
             <td style="height: 31px"></td>
         </tr>
         <tr>
-            <td style="width: 400px; height: 20px"></td>
+            <td style="width: 50px; height: 20px"></td>
             <td colspan="2" style="height: 20px">
             </td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
-            <td style="width: 400px; height: 20px">&nbsp;</td>
+            <td style="width: 50px; height: 20px">&nbsp;</td>
             <td style="height: 20px" colspan="2">
                 <asp:Button ID="Button1" runat="server" Text="上一步" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Width="90px" />
                 <asp:Button ID="Button3" runat="server" Text="下一步" BorderStyle="Dashed" Height="40px" OnClick="Button3_Click" style="margin-left: 412px" Width="90px" />

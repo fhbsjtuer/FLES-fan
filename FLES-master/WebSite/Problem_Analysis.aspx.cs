@@ -13,5 +13,15 @@ namespace WebSite
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Position_ChoseAlarmData.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Position_Clustergraphic.aspx");
+        }
     }
 }

@@ -2,24 +2,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table style="width: 100%;">
         <tr>
-            <td style="width: 401px; height: 20px"></td>
+            <td style="width: 50px; height: 20px"></td>
             <td colspan="3" style="height: 20px"></td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
-            <td style="width: 401px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
-                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="计分评价分类"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="1.计分评价分类"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 401px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 401px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Id" Theme="Aqua" Width="1000px" OnHtmlDataCellPrepared="ASPxGridView1_HtmlDataCellPrepared">
                     <SettingsPager AlwaysShowPager="True" PageSize="20">
@@ -56,12 +56,12 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 401px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td colspan="3">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 401px">&nbsp;</td>
+            <td style="width: 50px">&nbsp;</td>
             <td>
                 <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
             </td>

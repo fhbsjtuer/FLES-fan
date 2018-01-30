@@ -99,7 +99,7 @@ namespace DAL
         /// <returns></returns>
         public List<Evaluate_Classfication> GetAlltest()
         {
-            string strSql = "select * from bl1_01_overall_simple ";
+            string strSql = "select * from bl1_01_overall_simple limit 0,100";
             DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
             List<Evaluate_Classfication> list = new List<Evaluate_Classfication>();
             foreach (DataRow dr in ds.Tables[0].Rows)
