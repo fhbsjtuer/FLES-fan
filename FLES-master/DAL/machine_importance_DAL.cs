@@ -26,6 +26,18 @@ namespace DAL
             return list;
         }
 
+        public List<machine_importance> GetInfoByID(int processdata_ID, int Alert_ID)
+        {
+            string strSql = "select * from machine_importance where Id in (" + processdata_ID.ToString() +  ", " + Alert_ID.ToString() + ")";
+            DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
+            List<machine_importance> list = new List<machine_importance>();
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                list.Add(ConvertRowToEntity(dr));
+            }
+            return list;
+        }
+
         private machine_importance ConvertRowToEntity(DataRow r)
         {
             return new machine_importance(Convert.ToInt32(r["Id"]), r["MasterId"].ToString(), r["Source"].ToString(), r["Generate_Time"].ToString(), r["AOI"].ToString(), r["CLN"].ToString(), r["COA"].ToString(), r["DEV"].ToString(), r["DHC"].ToString(), r["DUV"].ToString(), r["EXP"].ToString(), r["OVN"].ToString(), r["PHC"].ToString(), r["SMA"].ToString(), r["ALL"].ToString());

@@ -11,10 +11,10 @@
     <Demo Text="数据上传" NavigateUrl="Position_DataUpload.aspx"/>
     <Demo Text="选择ProcessData" NavigateUrl="Position_ChoseData.aspx"/>
     <Demo Text="问题识别框架" NavigateUrl="Position_ProblemRecognizeFramework.aspx"/>
-    <Demo Text="影响显著特征和可疑机台概率" NavigateUrl="Position_Probability.aspx"/>
+    <Demo Text="processdata分析" NavigateUrl="Position_Probability.aspx"/>
     <Demo Text="选择机台报警" NavigateUrl="Position_ChoseAlarmData.aspx"/>
-    <Demo Text="机台报警" NavigateUrl="Position_Clustergraphic.aspx"/>
-    <Demo Text="信息融合" NavigateUrl=""/>
+    <Demo Text="机台报警聚类分析" NavigateUrl="Position_Clustergraphic.aspx"/>
+    <Demo Text="信息融合" NavigateUrl="Position_Fusion.aspx"/>
   </DemosGroup>
   <DemosGroup Text="异常问题分析">
     <Demo Text="加工参数变化显示" NavigateUrl="Problem_Analysis.aspx"/>

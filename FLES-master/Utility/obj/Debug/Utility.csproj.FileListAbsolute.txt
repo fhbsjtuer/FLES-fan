@@ -34,4 +34,3 @@ E:\sharespace\FLES-fan\FLES-master\Utility\bin\Debug\MySql.Data.xml
 E:\sharespace\FLES-fan\FLES-master\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
 E:\sharespace\FLES-fan\FLES-master\Utility\obj\Debug\Utility.dll
 E:\sharespace\FLES-fan\FLES-master\Utility\obj\Debug\Utility.pdb
-E:\sharespace\FLES-fan\FLES-master\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
