@@ -100,6 +100,7 @@
     <Content Include="Position_Fusion.aspx" />
     <Content Include="Position_Probability.aspx" />
     <Content Include="Position_ProblemRecognizeFramework.aspx" />
+    <Content Include="ProblemAnalyse_ProblemRecommand.aspx" />
     <Content Include="Problem_Analysis.aspx" />
     <Content Include="ProductionDiagnos_FileUpLoad.aspx" />
   </ItemGroup>
@@ -231,6 +232,13 @@
     </Compile>
     <Compile Include="Position_ProblemRecognizeFramework.aspx.designer.cs">
       <DependentUpon>Position_ProblemRecognizeFramework.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemAnalyse_ProblemRecommand.aspx.cs">
+      <DependentUpon>ProblemAnalyse_ProblemRecommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProblemAnalyse_ProblemRecommand.aspx.designer.cs">
+      <DependentUpon>ProblemAnalyse_ProblemRecommand.aspx</DependentUpon>
     </Compile>
     <Compile Include="Problem_Analysis.aspx.cs">
       <DependentUpon>Problem_Analysis.aspx</DependentUpon>

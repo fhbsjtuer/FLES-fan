@@ -54,7 +54,7 @@
                         </dx:GridViewDataTextColumn>
                         <dx:GridViewDataTextColumn FieldName="SMA" VisibleIndex="13">
                         </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn FieldName="ALL" VisibleIndex="14">
+                        <dx:GridViewDataTextColumn FieldName="ALL" VisibleIndex="14" Caption="Uncertainty">
                         </dx:GridViewDataTextColumn>
                     </Columns>
                 </dx:ASPxGridView>

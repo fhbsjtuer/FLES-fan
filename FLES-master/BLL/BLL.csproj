@@ -53,6 +53,7 @@
     <Compile Include="data_frame_BLL.cs" />
     <Compile Include="feature_importance_BLL.cs" />
     <Compile Include="fusion_importance_BLL.cs" />
+    <Compile Include="history_case_info_BLL.cs" />
     <Compile Include="machine_importance_BLL.cs" />
     <Compile Include="ProcessData_Sample_Info_BLL.cs" />
     <Compile Include="ProcessData_Management_BLL.cs" />
