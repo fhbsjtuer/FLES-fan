@@ -106,6 +106,8 @@
     <Content Include="Position_Probability.aspx" />
     <Content Include="Position_ProblemRecognizeFramework.aspx" />
     <Content Include="ProblemAnalyse_ProblemRecommand.aspx" />
+    <Content Include="ProblemHandle_ActualTreatmentUpload.aspx" />
+    <Content Include="ProblemHandle_AllRecord.aspx" />
     <Content Include="ProblemHandle_StartProcess.aspx" />
     <Content Include="Problem_Analysis.aspx" />
     <Content Include="ProductionDiagnos_FileUpLoad.aspx" />
@@ -246,6 +248,20 @@
     </Compile>
     <Compile Include="ProblemAnalyse_ProblemRecommand.aspx.designer.cs">
       <DependentUpon>ProblemAnalyse_ProblemRecommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemHandle_ActualTreatmentUpload.aspx.cs">
+      <DependentUpon>ProblemHandle_ActualTreatmentUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProblemHandle_ActualTreatmentUpload.aspx.designer.cs">
+      <DependentUpon>ProblemHandle_ActualTreatmentUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemHandle_AllRecord.aspx.cs">
+      <DependentUpon>ProblemHandle_AllRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProblemHandle_AllRecord.aspx.designer.cs">
+      <DependentUpon>ProblemHandle_AllRecord.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProblemHandle_StartProcess.aspx.cs">
       <DependentUpon>ProblemHandle_StartProcess.aspx</DependentUpon>

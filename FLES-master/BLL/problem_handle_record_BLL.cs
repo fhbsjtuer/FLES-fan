@@ -7,6 +7,7 @@ using Model;
 
 namespace BLL
 {
+    [System.ComponentModel.DataObject]
     public class problem_handle_record_BLL
     {
         static DAL.problem_handle_record_DAL dal = new DAL.problem_handle_record_DAL();
@@ -14,6 +15,11 @@ namespace BLL
         public List<problem_handle_record> GetAlltest()
         {
             return dal.GetAlltest();
+        }
+
+        public List<problem_handle_record> GetOneByID(int ID)
+        {
+            return dal.GetOneByID(ID);
         }
 
         public void Add(int Id, string MasterID, string Status, DateTime Start_Date, DateTime End_Date, string AOI, string CLN, string COA, string DEV, string DHC, string DUV, string EXP, string OVN, string PHC, string SMA, string ALL, string Is_New, string Problem_Machine_Name, int Source_Case_ID)

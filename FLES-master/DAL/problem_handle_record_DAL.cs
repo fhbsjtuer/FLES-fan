@@ -175,6 +175,23 @@ namespace DAL
             return list;
         }
 
+        /// <summary>
+        /// 查询数据
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public List<problem_handle_record> GetOneByID(int ID)
+        {
+            string strSql = "select * from problem_handle_record where ID = " + ID.ToString();
+            DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
+            List<problem_handle_record> list = new List<problem_handle_record>();
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                list.Add(ConvertRowToEntity(dr));
+            }
+            return list;
+        }
+
         private problem_handle_record ConvertRowToEntity(DataRow r)
         {
             return new problem_handle_record(Convert.ToInt32(r["Id"]), r["MasterId"].ToString(), r["Status"].ToString(), Convert.ToDateTime(r["Start_Date"]), Convert.ToDateTime(r["End_Date"]), r["AOI"].ToString(), r["CLN"].ToString(), r["COA"].ToString(), r["DEV"].ToString(), r["DHC"].ToString(), r["DUV"].ToString(), r["EXP"].ToString(), r["OVN"].ToString(), r["PHC"].ToString(), r["SMA"].ToString(), r["ALL"].ToString(), r["Is_New"].ToString(), r["Problem_Machine_Name"].ToString(), Convert.ToInt16(r["Source_Case_ID"]));

@@ -176,6 +176,23 @@ namespace DAL
             return list;
         }
 
+        /// <summary>
+        /// 查询数据
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public List<history_case_info> GetOneByID(int ID)
+        {
+            string strSql = "select * from history_case_info where ID = " + ID.ToString();
+            DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
+            List<history_case_info> list = new List<history_case_info>();
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                list.Add(ConvertRowToEntity(dr));
+            }
+            return list;
+        }
+
         private history_case_info ConvertRowToEntity(DataRow r)
         {
             return new history_case_info(Convert.ToInt32(r["ID"]), r["Machine_Name"].ToString(), Convert.ToDateTime(r["Latest_Upload_Time"]), 

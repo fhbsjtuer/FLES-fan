@@ -22,8 +22,7 @@
   </DemosGroup>
   <DemosGroup Text="解决方案与异常处理">
     <Demo Text="启动异常处理流程" NavigateUrl="ProblemHandle_StartProcess.aspx"/>
-    <Demo Text="实际处理上传" />
-    <Demo Text="解决情况汇总" />
+    <Demo Text="解决情况汇总" NavigateUrl="ProblemHandle_AllRecord.aspx"/>
   </DemosGroup>
   <DemosGroup Text="其他">
     <Demo Text="缺陷样本管理" />

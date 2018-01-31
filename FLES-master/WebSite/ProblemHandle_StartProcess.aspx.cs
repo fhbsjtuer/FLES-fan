@@ -50,7 +50,7 @@ namespace WebSite
                 dal1.add(model1);
 
                 //跳转
-                //Response.Redirect("Problem_Analysis.aspx");
+                Response.Redirect("ProblemHandle_AllRecord.aspx");
 
             }
             catch (Exception ex)
