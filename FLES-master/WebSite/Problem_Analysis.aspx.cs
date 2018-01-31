@@ -16,12 +16,12 @@ namespace WebSite
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Position_ChoseAlarmData.aspx");
+            Response.Redirect("Position_Fusion.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Position_Clustergraphic.aspx");
+            Response.Redirect("ProblemAnalyse_ProblemRecommand.aspx");
         }
     }
 }

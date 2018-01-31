@@ -94,12 +94,9 @@
         </tr>
         <tr>
             <td style="width: 50px">&nbsp;</td>
-            <td>
+            <td colspan="4" style="padding-left: 450px;">
                 <asp:Button ID="Button2" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button2_Click" style="margin-bottom: 0px" Text="下一步" Width="90px" />
             </td>
-            <td style="width: 50px">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
     </table>

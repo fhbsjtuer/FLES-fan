@@ -980,7 +980,6 @@
             <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px"></td>
         </tr>
         <tr>
-<<<<<<< HEAD
             <td style="width: 161px; height: 21px">&nbsp;</td>
             <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px" colspan="3">
                 <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" Text="3.数据分析"></asp:Label>
@@ -996,7 +995,7 @@
             <td style="width: 161px; height: 21px"></td>
             <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px" colspan="3">
 
-                <div class='tableauPlaceholder' id='viz1517361983354' style='position: relative; left: 187px; top: 0px; width: 1315px;'><noscript><a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;probability2&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='probability2&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;probability2&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1517361983354');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <div class='tableauPlaceholder' id='viz1517361983354' style='position: relative; left: 0px; top: 0px; width: 1315px;'><noscript><a href='#'><img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;probability2&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='probability2&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;probability2&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1517361983354');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </td>
             <td class="dxeBinaryImageButtonPanel_iOS" style="height: 21px"></td>
         </tr>
@@ -1007,11 +1006,7 @@
         </tr>
         <tr>
             <td style="width: 161px; height: 20px"></td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px">
-=======
-            <td style="width: 50px; height: 20px"></td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center;">
->>>>>>> 11acb15e4eb0c258b1908468d2d263c6c805b99f
                 <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
             </td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center;">

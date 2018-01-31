@@ -46,7 +46,7 @@
         <tr>
             <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
-                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="ID" Theme="Aqua" Width="1000px">
+                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="ID" Theme="Aqua" Width="1000px" OnHtmlDataCellPrepared="ASPxGridView1_HtmlDataCellPrepared">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
                         </dx:GridViewDataTextColumn>
@@ -130,7 +130,7 @@
         <tr>
             <td style="width: 50px">&nbsp;</td>
             <td colspan="3">
-                <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" KeyFieldName="ID" Theme="Aqua" Width="1000px">
+                <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" KeyFieldName="ID" Theme="Aqua" Width="1000px" OnHtmlDataCellPrepared="ASPxGridView2_HtmlDataCellPrepared">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
                         </dx:GridViewDataTextColumn>
@@ -176,10 +176,10 @@
         </tr>
         <tr>
             <td style="width: 50px">&nbsp;</td>
-            <td>
+            <td style="text-align: center">
                 <asp:Button ID="Button3" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button3_Click" Text="上一步" Width="90px" />
             </td>
-            <td>
+            <td style="text-align: center">
                 <asp:Button ID="Button4" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button4_Click" Text="下一步" Width="90px" />
             </td>
             <td>&nbsp;</td>

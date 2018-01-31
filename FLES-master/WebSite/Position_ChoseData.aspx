@@ -1,5 +1,29 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeBehind="Position_ChoseData.aspx.cs" Inherits="WebSite.Position_ChoseData" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <script language="javascript">
+        function SetPorgressBar(pos)
+        {
+            //设置进度条居中
+            var screenHeight = window["mainWindow"].offsetHeight;
+            var screenWidth = window["mainWindow"].offsetWidth;
+            ASPxProgressBar1.style.width = Math.round(screenWidth / 2);
+            ASPxProgressBar1.style.left = Math.round(screenWidth / 4);
+            ASPxProgressBar1.style.top = Math.round(screenHeight / 2);
+            ASPxProgressBar1.style.height = "21px";
+            ASPxProgressBar1.style.display = "";
+
+            //设置进度条百分比                       
+            ASPxProgressBar1.style.width = pos + "%";
+            ASPxProgressBar1.innerHTML = pos + "%";
+        }
+
+        //完成后隐藏进度条
+        function SetCompleted()
+        {       
+            ASPxProgressBar1.style.display = "none";
+        
+        }
+    </script> 
     <table style="width:100%;">
         <tr>
             <td style="width: 50px; height: 20px;"></td>
@@ -21,7 +45,7 @@
         <tr>
             <td style="width: 50px">&nbsp;</td>
             <td colspan="2">
-                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" Theme="Aqua" Width="1000px">
+                <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" Theme="Aqua" Width="1000px" KeyFieldName="ID">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
                         </dx:GridViewDataTextColumn>
@@ -62,11 +86,11 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 50px">&nbsp;</td>
-            <td colspan="2">
+            <td style="width: 50px; height: 28px;"></td>
+            <td colspan="2" style="height: 28px">
                 <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" Text="2.进度显示"></asp:Label>
             </td>
-            <td>&nbsp;</td>
+            <td style="height: 28px"></td>
         </tr>
         <tr>
             <td style="width: 50px">&nbsp;</td>
@@ -76,8 +100,8 @@
         </tr>
         <tr>
             <td style="width: 50px; height: 31px"></td>
-            <td style="height: 31px; width: 631px;">
-                <dx:ASPxProgressBar ID="ASPxProgressBar1" runat="server" Height="80px" Theme="Glass" Width="600px">
+            <td style="height: 31px; width: 900px;">
+                <dx:ASPxProgressBar ID="ASPxProgressBar1" runat="server" Height="80px" Theme="Glass" Width="800px">
                 </dx:ASPxProgressBar>
             </td>
             <td style="height: 31px">

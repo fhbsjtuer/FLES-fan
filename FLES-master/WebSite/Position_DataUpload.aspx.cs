@@ -25,8 +25,7 @@ namespace WebSite
             }
             if (FileUpload1.HasFile) //选择文件并上传
             {
-<<<<<<< HEAD
-=======
+
                 int filesize = FileUpload1.PostedFile.ContentLength / 1024 / 1024;
                 if (filesize > 2048)
                 {
@@ -35,7 +34,7 @@ namespace WebSite
                 }
                 else
                 {
->>>>>>> 11acb15e4eb0c258b1908468d2d263c6c805b99f
+
                     string newFileName = serverPath + "\\" + strName;
                     FileUpload1.SaveAs(newFileName);
                     string Time = DateTime.Now.ToString();
@@ -45,6 +44,9 @@ namespace WebSite
                     MySqlCommand mycom = new MySqlCommand(myinsert, con);
                     mycom.ExecuteNonQuery();
                     con.Close();
+                    Response.Redirect("Position_DataUpload.aspx");
+                }
+                
             }
             else
             {
@@ -63,10 +65,6 @@ namespace WebSite
             }
             if (FileUpload2.HasFile) //选择文件并上传
             {
-<<<<<<< HEAD
-
-
-=======
                 int filesize = FileUpload2.PostedFile.ContentLength / 1024 / 1024;
                 if (filesize > 2048)
                 {
@@ -75,7 +73,6 @@ namespace WebSite
                 }
                 else
                 {
->>>>>>> 11acb15e4eb0c258b1908468d2d263c6c805b99f
                     string newFileName = serverPath + "\\" + strName;
                     FileUpload2.SaveAs(newFileName);
                     string Time = DateTime.Now.ToString();
@@ -85,6 +82,8 @@ namespace WebSite
                     MySqlCommand mycom = new MySqlCommand(myinsert, con);
                     mycom.ExecuteNonQuery();
                     con.Close();
+                    Response.Redirect("Position_DataUpload.aspx");
+                }
             }
             else
             {
@@ -101,6 +100,22 @@ namespace WebSite
         protected void Button4_Click(object sender, EventArgs e)
         {
             Response.Redirect("Position_ChoseData.aspx");
+        }
+
+        protected void ASPxGridView1_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e)
+        {
+            if (e.DataColumn.FieldName == "ID")
+            {
+                e.Cell.Text = ((e.VisibleIndex) + 1).ToString();
+            }
+        }
+
+        protected void ASPxGridView2_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e)
+        {
+            if (e.DataColumn.FieldName == "ID")
+            {
+                e.Cell.Text = ((e.VisibleIndex) + 1).ToString();
+            }
         }
     }
 }
