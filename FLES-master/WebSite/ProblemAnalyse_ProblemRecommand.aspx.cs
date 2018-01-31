@@ -21,7 +21,7 @@ namespace WebSite
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            //Response.Redirect("Position_DataUpload.aspx");
+            Response.Redirect("ProblemHandle_StartProcess.aspx");
         }
     }
 }

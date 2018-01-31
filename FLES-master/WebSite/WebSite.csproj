@@ -45,7 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Web.Resources.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.Web, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -101,8 +106,10 @@
     <Content Include="Position_Probability.aspx" />
     <Content Include="Position_ProblemRecognizeFramework.aspx" />
     <Content Include="ProblemAnalyse_ProblemRecommand.aspx" />
+    <Content Include="ProblemHandle_StartProcess.aspx" />
     <Content Include="Problem_Analysis.aspx" />
     <Content Include="ProductionDiagnos_FileUpLoad.aspx" />
+    <Content Include="Welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -240,6 +247,13 @@
     <Compile Include="ProblemAnalyse_ProblemRecommand.aspx.designer.cs">
       <DependentUpon>ProblemAnalyse_ProblemRecommand.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ProblemHandle_StartProcess.aspx.cs">
+      <DependentUpon>ProblemHandle_StartProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProblemHandle_StartProcess.aspx.designer.cs">
+      <DependentUpon>ProblemHandle_StartProcess.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Problem_Analysis.aspx.cs">
       <DependentUpon>Problem_Analysis.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -261,6 +275,13 @@
     </Compile>
     <Compile Include="Main.master.designer.cs">
       <DependentUpon>Main.master</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

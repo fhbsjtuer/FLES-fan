@@ -21,7 +21,7 @@
     <Demo Text="问题原因推荐与解决方案匹配" NavigateUrl="ProblemAnalyse_ProblemRecommand.aspx"/>
   </DemosGroup>
   <DemosGroup Text="解决方案与异常处理">
-    <Demo Text="启动异常处理流程" />
+    <Demo Text="启动异常处理流程" NavigateUrl="ProblemHandle_StartProcess.aspx"/>
     <Demo Text="实际处理上传" />
     <Demo Text="解决情况汇总" />
   </DemosGroup>

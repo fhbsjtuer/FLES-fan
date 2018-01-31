@@ -37,6 +37,18 @@ namespace DAL
             return list;
         }
 
+        public List<fusion_importance> GetLatestFusionInfo()
+        {
+            string strSql = "select * from fusion_importance where Generate_Time = (select Max(Generate_Time) from fusion_importance)";
+            DataSet ds = Utility.MySqlHelper.ExecuteTxtDataSet(strSql);
+            List<fusion_importance> list = new List<fusion_importance>();
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                list.Add(ConvertRowToEntity(dr));
+            }
+            return list;
+        }
+
         private fusion_importance ConvertRowToEntity(DataRow r)
         {
             return new fusion_importance(Convert.ToInt32(r["Id"]), r["MasterID"].ToString(), Convert.ToInt32(r["ProcessData_Source_ID"]), Convert.ToInt32(r["Alert_Source_ID"]), Convert.ToDateTime(r["Generate_Time"]), r["AOI"].ToString(), r["CLN"].ToString(), r["COA"].ToString(), r["DEV"].ToString(), r["DHC"].ToString(), r["DUV"].ToString(), r["EXP"].ToString(), r["OVN"].ToString(), r["PHC"].ToString(), r["SMA"].ToString(), r["ALL"].ToString());

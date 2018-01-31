@@ -20,5 +20,10 @@ namespace BLL
         {
             return dal.GetSpecificFusionInfo(MasterID);
         }
+
+        public List<fusion_importance> GetLatestFusionInfo()
+        {
+            return dal.GetLatestFusionInfo();
+        }
     }
 }

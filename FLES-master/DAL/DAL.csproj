@@ -61,6 +61,7 @@
     <Compile Include="fusion_importance_DAL.cs" />
     <Compile Include="history_case_info_DAL.cs" />
     <Compile Include="machine_importance_DAL.cs" />
+    <Compile Include="problem_handle_record_DAL.cs" />
     <Compile Include="ProcessData_Sample_Info_DAL.cs" />
     <Compile Include="ProcessData_Management_DAL.cs" />
     <Compile Include="count_sample_DAL.cs" />

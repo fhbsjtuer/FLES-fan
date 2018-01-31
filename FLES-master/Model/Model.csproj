@@ -55,6 +55,7 @@
     <Compile Include="fusion_importance.cs" />
     <Compile Include="history_case_info.cs" />
     <Compile Include="machine_importance.cs" />
+    <Compile Include="problem_handle_record.cs" />
     <Compile Include="ProcessData_Sample_Info.cs" />
     <Compile Include="ProcessData_Management.cs" />
     <Compile Include="count_sample.cs" />
