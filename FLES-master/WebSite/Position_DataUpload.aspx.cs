@@ -25,14 +25,6 @@ namespace WebSite
             }
             if (FileUpload1.HasFile) //选择文件并上传
             {
-                int filesize = FileUpload1.PostedFile.ContentLength / 1024 / 1024;
-                if (filesize > 8)
-                {
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "", "警告:只允许上传小于8M的文件");
-                    return;
-                }
-                else
-                {
                     string newFileName = serverPath + "\\" + strName;
                     FileUpload1.SaveAs(newFileName);
                     string Time = DateTime.Now.ToString();
@@ -42,7 +34,6 @@ namespace WebSite
                     MySqlCommand mycom = new MySqlCommand(myinsert, con);
                     mycom.ExecuteNonQuery();
                     con.Close();
-                }
             }
             else
             {
@@ -61,14 +52,8 @@ namespace WebSite
             }
             if (FileUpload2.HasFile) //选择文件并上传
             {
-                int filesize = FileUpload2.PostedFile.ContentLength / 1024 / 1024;
-                if (filesize > 8)
-                {
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "", "警告:只允许上传小于8M的文件");
-                    return;
-                }
-                else
-                {
+
+
                     string newFileName = serverPath + "\\" + strName;
                     FileUpload2.SaveAs(newFileName);
                     string Time = DateTime.Now.ToString();
@@ -78,7 +63,6 @@ namespace WebSite
                     MySqlCommand mycom = new MySqlCommand(myinsert, con);
                     mycom.ExecuteNonQuery();
                     con.Close();
-                }
             }
             else
             {

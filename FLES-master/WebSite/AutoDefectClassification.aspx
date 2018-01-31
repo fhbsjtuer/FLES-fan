@@ -22,6 +22,8 @@
             <td style="width: 402px">&nbsp;</td>
             <td colspan="3">
                 <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EnableTheming="True" KeyFieldName="Comment" Theme="Aqua" Width="1000px">
+                    <SettingsPager AlwaysShowPager="True">
+                    </SettingsPager>
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
                         </dx:GridViewDataTextColumn>
