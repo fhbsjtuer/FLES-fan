@@ -12,6 +12,11 @@ namespace WebSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ObjectDataSource1.DataBind();
+            }
+                
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
@@ -24,6 +29,17 @@ namespace WebSite
             }
             if (FileUpload1.HasFile) //选择文件并上传
             {
+<<<<<<< HEAD
+=======
+                int filesize = FileUpload1.PostedFile.ContentLength / 1024 / 1024;
+                if (filesize > 2048)
+                {
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "", "警告:只允许上传小于2G的文件");
+                    return;
+                }
+                else
+                {
+>>>>>>> 11acb15e4eb0c258b1908468d2d263c6c805b99f
                     string newFileName = serverPath + "\\" + strName;
                     FileUpload1.SaveAs(newFileName);
                     string Time = DateTime.Now.ToString();
@@ -33,6 +49,11 @@ namespace WebSite
                     MySqlCommand mycom = new MySqlCommand(myinsert, con);
                     mycom.ExecuteNonQuery();
                     con.Close();
+<<<<<<< HEAD
+=======
+                }
+                ObjectDataSource1.DataBind();
+>>>>>>> 11acb15e4eb0c258b1908468d2d263c6c805b99f
             }
             else
             {

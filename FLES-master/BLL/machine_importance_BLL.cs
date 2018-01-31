@@ -15,5 +15,10 @@ namespace BLL
         {
             return dal.GetAlltest();
         }
+
+        public List<machine_importance> GetInfoByID(int processdata_ID, int Alert_ID)
+        {
+            return dal.GetInfoByID(processdata_ID, Alert_ID);
+        }
     }
 }

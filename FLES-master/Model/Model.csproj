@@ -52,6 +52,8 @@
     <Compile Include="alarm_management.cs" />
     <Compile Include="data_frame.cs" />
     <Compile Include="feature_importance.cs" />
+    <Compile Include="fusion_importance.cs" />
+    <Compile Include="history_case_info.cs" />
     <Compile Include="machine_importance.cs" />
     <Compile Include="ProcessData_Sample_Info.cs" />
     <Compile Include="ProcessData_Management.cs" />
