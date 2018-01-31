@@ -10,7 +10,7 @@ namespace Model
         public history_case_info(int _Id, string _Machine_Name, DateTime _Latest_Upload_Time, int _Number_of_occurrences, 
             string _Failure_Discription, string _Failure_Reason, string _Damage_Assessment, string _Treatment, string _Failure_Probability_u1, 
             string _Severity_u2, string _Detection_Difficulty_u3, string _Maintenance_Difficulty_u4, string _u1_u2, string _u1_u3, string _u1_u4, 
-            string _u2_u3, string _u2_u4, string _u3_u4, float _Contribution)
+            string _u2_u3, string _u2_u4, string _u3_u4, string _Contribution)
         {
             this.Id = _Id;
             this.Machine_Name = _Machine_Name;
@@ -30,6 +30,7 @@ namespace Model
             this.u2_u3 = _u2_u3;
             this.u2_u4 = _u2_u4;
             this.u3_u4 = _u3_u4;
+            this.Contribution = _Contribution;
         }
 
         #region 字段
@@ -51,7 +52,7 @@ namespace Model
         private string _u2_u3;
         private string _u2_u4;
         private string _u3_u4;
-        private float _Contribution;
+        private string _Contribution;
         #endregion
 
         #region 属性
@@ -73,7 +74,7 @@ namespace Model
         public string u2_u3 { get { return _u2_u3; } set { _u2_u3 = value; } }
         public string u2_u4 { get { return _u2_u4; } set { _u2_u4 = value; } }
         public string u3_u4 { get { return _u3_u4; } set { _u3_u4 = value; } }
-        public float Contribution { get { return _Contribution; } set { _Contribution = value; } }
+        public string Contribution { get { return _Contribution; } set { _Contribution = value; } }
         #endregion
     }
 }

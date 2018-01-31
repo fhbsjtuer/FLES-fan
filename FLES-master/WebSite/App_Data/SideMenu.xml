@@ -18,7 +18,7 @@
   </DemosGroup>
   <DemosGroup Text="异常问题分析">
     <Demo Text="加工参数变化显示" NavigateUrl="Problem_Analysis.aspx"/>
-    <Demo Text="问题原因推荐与解决方案匹配" />
+    <Demo Text="问题原因推荐与解决方案匹配" NavigateUrl="ProblemAnalyse_ProblemRecommand.aspx"/>
   </DemosGroup>
   <DemosGroup Text="解决方案与异常处理">
     <Demo Text="启动异常处理流程" />

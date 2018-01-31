@@ -13,5 +13,15 @@ namespace WebSite
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Problem_Analysis.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            //Response.Redirect("Position_DataUpload.aspx");
+        }
     }
 }

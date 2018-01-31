@@ -17,12 +17,12 @@ namespace BLL
             return dal.GetAlltest();
         }
 
-        public void Add(int Id, string Machine_Name, DateTime Latest_Upload_Time, int Number_of_occurrences, string Failure_Discription, string Failure_Reason, string Damage_Assessment, string Treatment, string Failure_Probability_u1, string Severity_u2, string Detection_Difficulty_u3, string Maintenance_Difficulty_u4, string u1_u2, string u1_u3, string u1_u4, string u2_u3, string u2_u4, string u3_u4, float Contribution)
+        public void Add(int Id, string Machine_Name, DateTime Latest_Upload_Time, int Number_of_occurrences, string Failure_Discription, string Failure_Reason, string Damage_Assessment, string Treatment, string Failure_Probability_u1, string Severity_u2, string Detection_Difficulty_u3, string Maintenance_Difficulty_u4, string u1_u2, string u1_u3, string u1_u4, string u2_u3, string u2_u4, string u3_u4, string Contribution)
         {
             dal.add(new Model.history_case_info(Id, Machine_Name, Latest_Upload_Time, Number_of_occurrences, Failure_Discription, Failure_Reason, Damage_Assessment, Treatment, Failure_Probability_u1, Severity_u2, Detection_Difficulty_u3, Maintenance_Difficulty_u4, u1_u2, u1_u3, u1_u4, u2_u3, u2_u4, u3_u4, Contribution));
         }
 
-        public void Update(int Id, string Machine_Name, DateTime Latest_Upload_Time, int Number_of_occurrences, string Failure_Discription, string Failure_Reason, string Damage_Assessment, string Treatment, string Failure_Probability_u1, string Severity_u2, string Detection_Difficulty_u3, string Maintenance_Difficulty_u4, string u1_u2, string u1_u3, string u1_u4, string u2_u3, string u2_u4, string u3_u4, float Contribution, int Original_ID)
+        public void Update(int Id, string Machine_Name, DateTime Latest_Upload_Time, int Number_of_occurrences, string Failure_Discription, string Failure_Reason, string Damage_Assessment, string Treatment, string Failure_Probability_u1, string Severity_u2, string Detection_Difficulty_u3, string Maintenance_Difficulty_u4, string u1_u2, string u1_u3, string u1_u4, string u2_u3, string u2_u4, string u3_u4, string Contribution, int Original_ID)
         {
             dal.update(new Model.history_case_info(Id, Machine_Name, Latest_Upload_Time, Number_of_occurrences, Failure_Discription, Failure_Reason, Damage_Assessment, Treatment, Failure_Probability_u1, Severity_u2, Detection_Difficulty_u3, Maintenance_Difficulty_u4, u1_u2, u1_u3, u1_u4, u2_u3, u2_u4, u3_u4, Contribution));
         }

@@ -93,7 +93,7 @@
         </tr>
         <tr>
             <td style="width: 50px; height: 20px">&nbsp;</td>
-            <td style="height: 20px" colspan="2">
+            <td style="height: 20px; text-align: center;" colspan="2">
                 <asp:Button ID="Button1" runat="server" Text="上一步" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Width="90px" />
                 <asp:Button ID="Button3" runat="server" Text="下一步" BorderStyle="Dashed" Height="40px" OnClick="Button3_Click" style="margin-left: 412px" Width="90px" />
             </td>

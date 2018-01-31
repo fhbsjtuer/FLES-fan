@@ -41,7 +41,7 @@ namespace DAL
                     new MySqlParameter("@u2_u3", MySqlDbType.VarChar,255),
                     new MySqlParameter("@u2_u4", MySqlDbType.VarChar,255),
                     new MySqlParameter("@u3_u4", MySqlDbType.VarChar,255),
-                    new MySqlParameter("@Contribution", MySqlDbType.Float)
+                    new MySqlParameter("@Contribution", MySqlDbType.VarChar,50)
                                           };
             parameters[0].Value = model.Machine_Name;
             parameters[1].Value = model.Latest_Upload_Time;
@@ -102,7 +102,7 @@ namespace DAL
                     new MySqlParameter("@u2_u3", MySqlDbType.VarChar,255),
                     new MySqlParameter("@u2_u4", MySqlDbType.VarChar,255),
                     new MySqlParameter("@u3_u4", MySqlDbType.VarChar,255),
-                    new MySqlParameter("@Contribution", MySqlDbType.Float),
+                    new MySqlParameter("@Contribution", MySqlDbType.VarChar,50),
                     new MySqlParameter("@ID", MySqlDbType.Int32)
                                             };
             parameters[0].Value = model.Machine_Name;
@@ -180,7 +180,9 @@ namespace DAL
         {
             return new history_case_info(Convert.ToInt32(r["ID"]), r["Machine_Name"].ToString(), Convert.ToDateTime(r["Latest_Upload_Time"]), 
                 Convert.ToInt32(r["Number_of_occurrences"]), r["Failure_Discription"].ToString(), r["Failure_Reason"].ToString(), 
-                r["Damage_Assessment"].ToString(), r["Treatment"].ToString(), r["Failure_Probability_u1"].ToString(), r["Severity_u2"].ToString(), r["Detection_Difficulty_u3"].ToString(), r["Maintenance_Difficulty_u4"].ToString(), r["u1_u2"].ToString(), r["u1_u3"].ToString(), r["u1_u4"].ToString(), r["u2_u3"].ToString(), r["u2_u4"].ToString(), r["u3_u4"].ToString(), Convert.ToSingle(r["Contribution"]));
+                r["Damage_Assessment"].ToString(), r["Treatment"].ToString(), r["Failure_Probability_u1"].ToString(), r["Severity_u2"].ToString(), 
+                r["Detection_Difficulty_u3"].ToString(), r["Maintenance_Difficulty_u4"].ToString(), r["u1_u2"].ToString(), r["u1_u3"].ToString(), 
+                r["u1_u4"].ToString(), r["u2_u3"].ToString(), r["u2_u4"].ToString(), r["u3_u4"].ToString(), r["Contribution"].ToString());
         }
     }
 }
