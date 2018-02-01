@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Demos Name="ASPxperience" ColumnCount="3">
+  <DemosGroup Text="产品品质诊断">
+    <Demo Text="样本上传与样本管理" NavigateUrl="ProductionDiagnos_FileUpLoad.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="缺陷自动分类">
+    <Demo Text="选择计数型数据" NavigateUrl="AutoDefectClassification.aspx"/>
+    <Demo Text="玻璃计数型缺陷计分评价分类" NavigateUrl="AutoDefectClassification1.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="异常机台定位">
+    <Demo Text="数据上传" NavigateUrl="Position_DataUpload.aspx"/>
+    <Demo Text="选择ProcessData" NavigateUrl="Position_ChoseData.aspx"/>
+    <Demo Text="问题识别框架" NavigateUrl="Position_ProblemRecognizeFramework.aspx"/>
+    <Demo Text="processdata分析" NavigateUrl="Position_Probability.aspx"/>
+    <Demo Text="选择机台报警" NavigateUrl="Position_ChoseAlarmData.aspx"/>
+    <Demo Text="机台报警聚类分析" NavigateUrl="Position_Clustergraphic.aspx"/>
+    <Demo Text="信息融合" NavigateUrl="Position_Fusion.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="异常问题分析">
+    <Demo Text="加工参数变化显示" NavigateUrl="Problem_Analysis.aspx"/>
+    <Demo Text="问题原因推荐与解决方案匹配" NavigateUrl="ProblemAnalyse_ProblemRecommand.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="解决方案与异常处理">
+    <Demo Text="启动异常处理流程" NavigateUrl="ProblemHandle_StartProcess.aspx"/>
+    <Demo Text="解决情况汇总" NavigateUrl="ProblemHandle_AllRecord.aspx"/>
+  </DemosGroup>
+  <DemosGroup Text="其他">
+    <Demo Text="缺陷样本管理" />
+    <Demo Text="历史案例管理" />
+    <Demo Text="警报信息管理" />
+    <Demo Text="识别框架管理" />
+  </DemosGroup>
+</Demos>

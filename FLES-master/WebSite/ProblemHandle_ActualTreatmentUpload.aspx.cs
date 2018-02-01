@@ -39,7 +39,7 @@ namespace WebSite
             {   
                 //获取problem_handle_record的ID
                 Session["ID"] = Request.QueryString["ID"];
-                if (Session["ID"] is null)
+                if (Session["ID"] == null)
                 {
                     Response.Write("<script>alert('ID missing!');window.location.href='../ProblemHandle_AllRecord.aspx';</script>");
                 }
