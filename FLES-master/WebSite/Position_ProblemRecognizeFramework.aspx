@@ -964,7 +964,7 @@
         <tr>
             <td style="width: 50px; height: 20px;">&nbsp;</td>
             <td style="height: 20px" colspan="3">
-                <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" Theme="Aqua" Width="1200px">
+                <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" EnableTheming="True" Theme="Aqua" Width="1200px" KeyFieldName="ID">
                     <Columns>
                         <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="0">
                         </dx:GridViewDataTextColumn>

@@ -1,29 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeBehind="Position_ChoseData.aspx.cs" Inherits="WebSite.Position_ChoseData" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <script language="javascript">
-        function SetPorgressBar(pos)
-        {
-            //设置进度条居中
-            var screenHeight = window["mainWindow"].offsetHeight;
-            var screenWidth = window["mainWindow"].offsetWidth;
-            ASPxProgressBar1.style.width = Math.round(screenWidth / 2);
-            ASPxProgressBar1.style.left = Math.round(screenWidth / 4);
-            ASPxProgressBar1.style.top = Math.round(screenHeight / 2);
-            ASPxProgressBar1.style.height = "21px";
-            ASPxProgressBar1.style.display = "";
-
-            //设置进度条百分比                       
-            ASPxProgressBar1.style.width = pos + "%";
-            ASPxProgressBar1.innerHTML = pos + "%";
-        }
-
-        //完成后隐藏进度条
-        function SetCompleted()
-        {       
-            ASPxProgressBar1.style.display = "none";
-        
-        }
-    </script> 
     <table style="width:100%;">
         <tr>
             <td style="width: 50px; height: 20px;"></td>

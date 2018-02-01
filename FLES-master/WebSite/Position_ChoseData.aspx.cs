@@ -21,7 +21,7 @@ namespace WebSite
             {
                 for (int i = 0; i < 100; i++)
                 {
-                    setProgress(i);
+                    //setProgress(i);
                     System.Threading.Thread.Sleep(50);
                     ASPxProgressBar1.Position += 1;
                 }

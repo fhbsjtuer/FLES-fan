@@ -101,10 +101,10 @@
         </tr>
         <tr>
             <td style="width: 50px; height: 20px"></td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center;">
+            <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center; width: 500px;">
                 <asp:Button ID="Button1" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button1_Click" Text="上一步" Width="90px" />
             </td>
-            <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center;">
+            <td class="dxcpCurrentColor_iOS" style="height: 20px; text-align: center; width: 500px;">
                 <asp:Button ID="Button2" runat="server" BorderStyle="Dashed" Height="40px" OnClick="Button2_Click" Text="下一步" Width="90px" />
             </td>
             <td class="dxcpCurrentColor_iOS" style="height: 20px">
